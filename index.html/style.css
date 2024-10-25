@@ -1,0 +1,136 @@
+* {
+    
+    margin: 0;
+    
+    padding: 0;
+    
+    box box-sizing: border-box;
+    
+}
+
+
+body  {
+    
+  font=family: 'Poppins', sans-serif;
+    
+  background-color: #e0f7fa;
+    
+  display: flex;
+    
+  flex-direction: column;
+    
+  align-items: center;
+    
+  justify-content: center;
+    
+  min-height: 100vh;
+    
+  text align: center;
+   
+}
+
+h1   {
+    
+      font-size: 2.5rem;
+    
+      color: #00796b;
+    
+      margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+
+.button-container  {
+    
+     margin-top: 20px;
+    
+     display: flex;
+    
+     gap: 15px;
+    
+     justify-content: center;
+    
+}
+
+
+.button  {
+    
+    padding: 12px 24px;
+    
+    font-size: 1.2rem;
+    
+    background-color: #c0edf2;
+
+    
+    color: #154360;
+    
+    border: none;
+    
+    border-raduis: 5px;
+    
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease; transform 0.2s ease;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.button:hover  {
+    
+  background-color: #00796b;
+    
+  transform: translateY(-2px);
+
+    
+}
+
+.content  {
+    
+  max-width: 800px;
+    
+  padding: 20px 30px;
+    
+  background-color: #ffffff;
+    
+  text-align: justify;
+    
+  border-radius: 10px;
+    
+  border-left: 5px solid #00796b;
+    
+  align-self: center;
+    
+  margin: 30px 0;
+    
+  box shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.content h2  {
+    
+    margin-bottom: 10px;
+    
+    font-size: 1.5rem;
+    
+    color: #00796b;
+    
+    text-align: center;
+    
+}
+
+
+.content p, .content ul {
+    
+    margin-bottom: 10px;
+    
+    font-size: 2rem;
+    
+    color: #00796b;
+    
+    text-align: left;
+    
+}
